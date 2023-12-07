@@ -1,5 +1,5 @@
 def main():
-    book_path = "github.com/LeVperda/bookbot/books/frankenstein.txt"
+    book_path = "books/frankenstein.txt"
     text = get_book_text(book_path)
     get_report(book_path, text)
 
